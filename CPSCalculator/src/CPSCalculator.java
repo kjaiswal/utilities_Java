@@ -46,7 +46,7 @@ public class CPSCalculator {
 			in.close();
 		}
 		
-		cpd = (cpg * mpd / ampg) + pfees + tfees + (dfees/30);
+		cpd = (cpg * mpd / ampg) + pfees + tfees + (dfees/22);
 		
 		System.out.printf("Your cost per day of driving to work is: %f\n", cpd);
 	}//PSVMain
