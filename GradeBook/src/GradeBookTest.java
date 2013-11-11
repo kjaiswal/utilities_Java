@@ -9,6 +9,8 @@ public class GradeBookTest {
 		gb1.displayMessage();
 		gb1.setCourseName("Java");
 		gb1.displayMessage();
+		gb.determineCounterClassAverage();
+		gb.determineSentinalClassAverage();
 	}
 
 }
